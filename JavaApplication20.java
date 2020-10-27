@@ -1,21 +1,18 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+ * Programa que receba 3 número e calcule a equação de segundo grau dando raízes 
+ como resultado
+*/
 package javaapplication20;
 
 import java.util.Scanner;
 
 /**
  *
- * @author Usuario
+ * @Amanda_Vilela
  */
 public class JavaApplication20 {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         
        Scanner entrada = new Scanner(System.in);
@@ -37,15 +34,15 @@ public class JavaApplication20 {
        {
         X1 = ((-B) +Math.sqrt(delta))/(2*A);
         X2 = ((-B) -Math.sqrt(delta))/(2*A);
-        System.out.println("As raizes s�o X1: "+X1+" e X2: "+X2);
+        System.out.println("As raizes sÃo X1: "+X1+" e X2: "+X2);
        }
        else if (delta == 0)
        {
            X1 = ((-B) +Math.sqrt(delta))/(2*A);
-           System.out.println(" As raizes são X1: "+X1);
+           System.out.println(" As raizes sÃ£o X1: "+X1);
        }
        else if (delta<0){
-       System.out.println("A equa��o n�o apresenta resultados reais");
+       System.out.println("A equação não apresenta resultados reais");
     }
     }
 }
